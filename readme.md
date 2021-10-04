@@ -9,6 +9,7 @@ In MySQL execute the next instructions.
 
     CREATE DATABASE libreria;
     CREATE USER 'libreria'@'localhost' IDENTIFIED BY 'libreria';
+    GRANT all on libreria.* to 'libreria'@'localhost';
 
 ### Compile and execute
 The generation of the executable jar file can be performed by issuing the following command
