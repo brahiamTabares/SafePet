@@ -12,8 +12,8 @@ import javax.annotation.sql.DataSourceDefinition;
 		maxPoolSize = 10,
 		serverName = "localhost", //
 		portNumber = 3306, //
-		user = "root", //
-		password = "12345678", //
+		user = "libreria", //
+		password = "libreria", //
 		databaseName = "libreria", //
 		properties = { //
 		"useSSL=false", "useInformationSchema=true", "nullCatalogMeansCurrent=true", "nullNamePatternMatchesAll=false" //

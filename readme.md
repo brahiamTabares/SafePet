@@ -4,6 +4,13 @@
 
 MicroProfile Starter has generated this MicroProfile application for you.
 
+### Database config
+In MySQL execute the next instructions.
+
+    CREATE DATABASE libreria;
+    CREATE USER 'libreria'@'localhost' IDENTIFIED BY 'libreria';
+
+### Compile and execute
 The generation of the executable jar file can be performed by issuing the following command
 
 
